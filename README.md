@@ -24,3 +24,12 @@ app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
 ```
+
+## To Get MongoDB up and running
+`mongod --dbpath /usr/local/var/mongodb --logpath /usr/local/var/log/mongodb/mongo.log --fork`
+
+`mongod --config /usr/local/etc/mongod.conf`
+
+`ps aux | grep -v grep | grep mongod`
+
+`mongo`
